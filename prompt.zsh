@@ -57,7 +57,7 @@ function prompt_tg90nor_pwd {
 }
 
 function prompt_tg90nor_precmd {
-  setopt LOCAL_OPTIONS
+  setopt LOCAL_OPTIONS extendedglob
   unsetopt XTRACE KSH_ARRAYS
 
   # Format PWD.
